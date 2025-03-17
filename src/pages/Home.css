@@ -1,0 +1,44 @@
+section {
+    display: flex;
+    justify-content: center;/* Horizontally Center*/
+    align-items: center; /*Vertically center*/
+    height: 100vh; /*Full viewport height*/
+    text-align: center;
+    margin-left: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+
+section div p {
+    font-size: 1.5rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*height: 100vh;*/
+    flex-direction: column;
+}
+
+section div button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+section div button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Increase the button size by 10% */
+}
+
+html {
+    scroll-behavior: smooth;
+}

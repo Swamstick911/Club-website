@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    justify-content: center;/* Horizontally Center*/
+    align-items: center; /*Vertically center*/
+    height: 100vh; /*Full viewport height*/
+    text-align: center;
+    margin-left: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+
+section div p {
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*height: 100vh;*/
+    flex-direction: column;
+}
